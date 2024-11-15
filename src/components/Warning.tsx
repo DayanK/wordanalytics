@@ -5,6 +5,6 @@ interface IWarning  {
 
 export const Warning : React.FC<IWarning> = ({ warningMessage }) => {
   return (
-    <p className="warning">{ warningMessage }!</p>
+    <p className="warning">{ warningMessage }</p>
   )
 }
